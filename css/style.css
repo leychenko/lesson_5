@@ -1,136 +1,186 @@
 /* &display=swap */
-	@import url(https://fonts.googleapis.com/css?family=Murecho:100,200,300,regular,500,600,700,800,900&display=swap);
+	@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
 
-	@import url(https://fonts.googleapis.com/css?family=Mukta:200,300,regular,500,600,700,800&display=swap);
+	@import url(https://fonts.googleapis.com/css?family=Yellowtail:regular&display=swap);
 
-	@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900&display=swap);
+	@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
 
-	@import url(https://fonts.googleapis.com/css?family=Dongle:300,regular,700&display=swap);
+	@import url(https://fonts.googleapis.com/css?family=Andada+Pro:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic&display=swap);
 
-	@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic&display=swap);
+	@import url(https://fonts.googleapis.com/css?family=Anton:regular&display=swap);
 
-	@import url(https://fonts.googleapis.com/css?family=Comforter:regular&display=swap);
+	@import url(https://fonts.googleapis.com/css?family=Short+Stack:regular&display=swap);
 
-		@font-face{
-			font-family:"Laro-BoldItalic" ;
-			src:url("../fonts/Laro-BoldItalic.woff"), url("../fonts/Laro-BoldItalic.woff2");
-			font-weight: 700;
-			font-display: swap;
-			font-style: italic;
-		}
-		@font-face{
-			font-family:"ClarencePro-005" ;
-			src:url("../fonts/ClarencePro-005.woff"), url("../fonts/ClarencePro-005.woff2");
-			font-weight: 400;
-			font-display: swap;
-			font-style: normal;
-		}
-		body{
-			font-family:"Laro-BoldItalic" ;
-		}
-		.title{
-			font-family: "Josefin+Sans";
-			font-size: 21px;
-			font-weight: 700;
-			font-style: italic;
-			text-align: right;
-			color: blue;
-			text-shadow: 1px 1px 2px rgba(13, 197, 179, 0.877);
-		}
+	@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700&display=swap);
 
-		.header { 
-			font-size: 50px;
-			font-family: "sans-serif";
-			font-style: italic;
-			font-weight: 700;
-			color: crimson;
-			text-align: center;
-			text-decoration: underline;
-			
-		}
-		.link {
-			font-family: "Murecho";
-			font-size: 20px;
-			color:rgba(13, 197, 179, 0.877);
-			font-weight: 700;
-			text-decoration: underline;
-			line-height: 1.25;
-			letter-spacing: 2px;
-			text-shadow: 1px 2px 1px #000;
-		}
-		.conteiner {
-			text-align: center;
-			font-family: "ClarencePro-005";
-			font-size: 21px;
-			white-space: pre-line;
-			color: rgb(220, 117, 20);
-			
+	@import url(https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap);
 
-		}
-		.text{
-			font-family:"Comforter" ;
-			text-transform: capitalize;
-			font-size: 18px;
-			color: red;
-			font-weight: 900;
-			text-decoration: line-through;
+	@font-face {
+		font-family: "Comforter";
+		src: url('../fonts/Comforter-Regular.woff2') format('woff2'),
+			url('../fonts/Comforter-Regular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
 
-		}
+	body{
+		font-family:"Montserrat";
+		font-size: 15px;
+		line-height: 1.42857143;
+		max-width: 1200px;
+		margin: 0 auto;
+		background-color: rgba(226, 204, 156, 0.863);
+		
+	}
 
-		.text-2 {
-			font-size: 19px;
-			font-family: "Mukta";
-			font-weight: 400;
-			letter-spacing: 5px;
-			color: darkviolet;
-			word-spacing: 12px;
+	.wrapper { 
+		overflow: hidden;
+	}
+	.menu-list	{
+		font-family:"Andada+Pro";
+		font-size: 18px;
+		font-style: italic;
+		font-weight: 500;
+		line-height: 1.7;
+		color: rgba(5, 57, 97, 0.7);
+		padding: 10px 55px;
+		margin: 0 45px;
+		text-decoration: underline;
+		text-shadow: -3px 2px 5px rgba(236, 16, 9, 0.877);
+	}
+
+	.title {
+		font-family: "Comforter";
+		font-style: normal;
+		font-size: 60px;
+		font-weight: 400;
+		text-decoration: underline green;
+		line-height: 130%;
+		color: red;
+		text-align: center;
+	}
+	.content{
+		font-family: "Short+Stack",cursive;
+		font-size: 18px;
+		color: yellow;
+		margin: -115px 35px 60px 0;
+		padding: 0 170px 0 95px;
+	}
+	.content-text{
+		font-family: "Short+Stack",cursive;
+		font-size: 18px;
+		text-decoration: overline;
+		margin: 10px 30px;
+		max-height: 60px;
+		max-width: 800px;
+		overflow: scroll;
+		background: rgb(12, 182, 212);
+	}
+	.content-2{
+		max-height: 150px;
+		overflow: auto;
+		font-family: "Yellowtail","sans-serif";
+		font-size: 22px;
+		color: darkgreen;
+	}
+	.foto{
+		width: 900px;
+		display: inline-block;
+		margin: 10px 0 10px 90px;
+		padding: 10px ;
+	}
+	.foto-one{
+		width: 900px;
+		height: 700px;
+		display: inline-block;
+		margin: 10px 0 10px 90px;
+	}
+	.span{
+		font-family:"Playfair+Display","sanserif";
+		font-size: 26px;
+		font-weight: 700;
+		color: rgb(72, 30, 88);
+		text-shadow: -2px 1px 2px rgba(201, 83, 4, 0.911);
+	}
+	.span-2{
+		font-family:"Pacifico";
+		font-size: 25px;
+		color: darkgreen;
+		text-decoration: underline rgb(64, 141, 1);
+	}
+	.block-title{
+		font-family: "Anton";
+		font-size: 36px;
+		font-weight: 400;
+		text-align: right;
+		margin: 30px 0;
+		text-decoration: overline;
+	}
+	.menu-title{
+		font-family: "Playfair+Display";
+		font-size: 48px;
+		font-weight: 400;
+		text-align: center;
+		color: rgb(25, 7, 146);
+		padding: 10px 70px 0 0;
+		margin: auto 20px;
+	}
+	.block-2 > p{
+		font-family: cursive;
+		font-style: italic;
+		font-size: 17px;
+		color: rgba(100, 158, 14, 0.726);
+		text-shadow: 1px 1px 2px blue;
+		text-decoration: line-through red;
+		margin: -50px 0 20px 0;
+		padding: 15px 20px;
+	}
+	#meteor{
+		padding: 10px 63px;
+		margin: 0 90px 20px 5px;
+		background-color: rgb(45, 207, 167);
+		border: 3px solid rgb(148, 3, 3);
+		text-decoration: underline rgba(71, 211, 58, 0.651);
+	}
+	.block-3{
+		font-family:"Playfair+Display";
+		font-style: oblique;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 1.5;
 		}
-		.text-3{
-			font-family:"Dongle" ;
-			font-weight: 300;
-			font-size: 18px;
-			color: forestgreen;
-			text-decoration: line-through;
-		}
-		.header-2{
-			font-size: 52px;
-			color: rgb(234, 0, 255);
-			font-family: "Titillium+Web";
-			text-align: center;
-			text-shadow: 10px 15px 5px #000;
-			font-weight: 900;
-			}
-			
-		.block{
-			font-family: "Verdana, Geneva, Tahoma, sans-serif";
-			font-size: 25px;
-			color: rgb(0, 119, 255);
-			text-decoration: underline;
-			text-decoration-color: lightcoral;
-			letter-spacing: 20px;
-		}
-		.block span{
-			color: rgb(101, 165, 42);
-			font-family: "Titillium+Web";
-			font-weight: 700;
-			font-style: italic;
-		}
-		.homework{
-			font-family: 'Georgia, Times New Roman, Times, serif';
-			font-size: 100px;
-			text-align: center;
-			color: red;
-			text-decoration: underline;
-			text-shadow: 8px 8px 8px;
-		}
-		.block-2{
-			font-family:"Dongle" ;
-			font-size: 22px;
-			text-align: right;
-			text-decoration: line-through;
-			
-		}	
-		.w3{
-			text-align: right;
-			
-		}
+		.block-3 > ul{
+			padding: 0 50px;
+			margin: 10px 200px;
+	}
+		
+	.meta{
+		font-family: "Comforter";
+		font-size: 20px;
+		line-height: 1.8;
+		text-decoration: underline red;
+		color: rgb(12, 1, 53);
+		margin: 20px 80px;
+		max-width: 600px;
+		max-height: 200px;
+		overflow: auto;
+	}
+	.footer > p{
+		font-family: "Yellowtail";
+		font-weight: 400;
+		font-size: 19px;
+		text-align: right;
+	}
+	.footer > a{
+		font-family: "Dancing+Script";
+		font-weight: 700;
+		font-size: 45px;
+		display: block;
+		text-align: center;
+		color: chartreuse;
+		text-shadow: -2px 2px 1px ;
+		margin: 30px 200px ;
+		border: 3px solid rgb(209, 75, 22);
+	}
+
