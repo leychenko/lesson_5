@@ -53,9 +53,9 @@
 	.title {
 		font-family: "Comforter";
 		font-style: normal;
-		font-size: 60px;
+		font-size: 90px;
 		font-weight: 400;
-		text-decoration: underline green;
+		text-shadow: -3px 1px 5px rgb(27, 25, 32);
 		line-height: 130%;
 		color: red;
 		text-align: center;
@@ -150,7 +150,7 @@
 		font-weight: 700;
 		line-height: 1.5;
 		}
-		.block-3 > ul{
+	.block-3 > ul{
 			padding: 0 50px;
 			margin: 10px 200px;
 	}
@@ -182,5 +182,8 @@
 		text-shadow: -2px 2px 1px ;
 		margin: 30px 200px ;
 		border: 3px solid rgb(209, 75, 22);
+	}
+	.item{
+		list-style-type:;
 	}
 
