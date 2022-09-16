@@ -1,83 +1,137 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/null.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lesson_5</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/null.css">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Lesson 4</title>
-</head>
-
-	<body>
-			<h1 class="header">
-				Эта статья познакомит вас с простой, но важной темой - «Шрифты в CSS», а также даст вам практическую демонстрацию
-				по этому вопросу.
-			</h1><br>
-			<p class="title">
-				Эта статья познакомит вас с простой, но важной темой - 'Шрифты в а также даст вам практическую демонстрацию по
-				этому вопросу. Следующие указатели будут рассмотрены в этой статье,
-			</p><br>
-			<div class="link">
-				<ol>
-					<li> <a href="https://ru.ichlese.at/how-best-utilize-fonts-css#FontsinCSS">Шрифты в CSS</a></li>
-					<li> <a href="https://ru.ichlese.at/how-best-utilize-fonts-css#AttributesinCSSFont">Атрибуты шрифта CSS</a>
-					</li>
-					<li> <a href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-styleattribute">атрибут стиля шрифта</a>
-					</li>
-					<li> <a href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-weightattribute">атрибут font-weight</a>
-					</li>
-					<li> <a href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-sizeattribute">атрибут font-size</a></li>
-					<li><a href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-familyattribute">атрибут font-family</a>
-					</li>
-				</ol>
-			</div><br><br>
-			<div class="conteiner">
-				<img src="image/1a018fc39f9dfdc8dc328759974692d8.png" alt="">
-				<p>
-					Ненавязчивая читаемость - вы хотите проверить последний счет матча, находясь в офисе. Очевидно, вам нужно
-					быстрое обновление текста, а не шумное видео!
-					Низкие требования к пропускной способности сети - текстовый контент можно загружать даже в местах с плохим
-					подключением к Интернету, а мультимедийный контент - нет.
-				</p><br>
-				<p>
-					<span class="text">Удобство поиска - веб-сайты всегда следят за тем, насколько легко их содержание будет замечено поисковыми
-						системами.</span> Текст лучше всего подходит для этого, по крайней мере, до тех пор, пока ИИ полностью не захватит
-					Интернет!
-				</p>
-				<p class="text-2">
-					При форматировании текстового содержимого веб-дизайнерам остается работать только над несколькими параметрами -
-					шрифтом, выравниванием, выделением и цветом. Выбор правильного шрифта для текста - критически важный выбор.
-					Стандартная практика - использовать теги шрифтов CSS для определения шрифтов для текста на страницах HTML.
-				</p>
+  <body>
+    <header class="header">
+      <div class="header-conteiner">
+        <h1 class="header-conteiner__title">Шрифти CSS</h1>
+        <p class="header-conteiner__text">
+          Ця стаття познайомить вас з простою, але важливою темою - 'Шрифти в а
+          також дасть вам практичну демонстрацію по це питання. Наступні
+          покажчики будуть розглянуті у цій статті,
+        </p>
+        <br />
+        <div class="link">
+          <ul class="header-conteiner__list list">
+            <li class="list-item">
+              <a
+                class="list-item__link" target="blank"
+                href="https://ru.ichlese.at/how-best-utilize-fonts-css#FontsinCSS"
+                >Шрифти в CSS</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                class="list-item__link"
+					 target="blank"
+                href="https://ru.ichlese.at/how-best-utilize-fonts-css#AttributesinCSSFont"
+                >Атрибути шрифта CSS</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                class="list-item__link" target="blank"
+                href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-styleattribute"
+                >атрибут стилю шрифта</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                class="list-item__link" target="blank"
+                href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-weightattribute"
+                >атрибут font-weight</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                class="list-item__link" target="blank"
+                href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-sizeattribute"
+                >атрибут font-size</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                class="list-item__link" target="blank"
+                href="https://ru.ichlese.at/how-best-utilize-fonts-css#font-familyattribute"
+                >атрибут font-family</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+<main class="main">
+	<div class="main-conteiner body-block">
+	     <div class="body-block__section">
+	     	 <img class="image" src="image/1a018fc39f9dfdc8dc328759974692d8.png" alt="picture" />
+		      <p class="body-block__text">
+					Ненав'язлива читаність – ви хочете перевірити останній рахунок матчу,
+					перебуваючи в офісі. Очевидно, вам потрібне швидке оновлення тексту, а не
+					галасливе відео! Низькі вимоги до пропускної спроможності мережі
+					текстовий контент можна завантажувати навіть у місцях з поганим підключенням до
+					Інтернету, а мультимедійний контент – ні.
+		      </p>
+	     </div>
+	   <div class="body-block__section2">
+	   	   <p class="body-block__paragraf">
+		          >Зручність пошуку - веб-сайти завжди стежать за тим, наскільки легко їх
+					 зміст буде помічено пошуковими системами.
+					 Текст найкраще підходить для цього, принаймні доти, доки
+					 ІІ повністю не захопить Інтернет!
+		      </p>
+		      <p class="body-block__paragraf2">
+					Під час форматування текстового вмісту веб-дизайнерам залишається
+					працювати тільки над кількома параметрами - шрифтом, вирівнюванням,
+					виділенням та кольором. Вибір правильного шрифту для тексту – критично
+					важливий вибір. Стандартна практика - використовувати теги шрифтів CSS для
+					визначення шрифтів для тексту на сторінках <span>HTML</span>.
+		      </p>
 			</div>
-			<div class="section">
-				<img src="image/depositphotos_7244425-stock-photo-html-css-coding-concept-on.jpg" alt=""><br><br>
-				<p class="text-3">
-					Подробное руководство по CSS можно найти на сайте Edureka CSS Tutorial для начинающих. Вы получите отличную
-					информацию о том, как использовать CSS для улучшения веб-дизайна HTML.У CSS-шрифтов есть 4 основных атрибута - стиль, вес, размер и семейство. Атрибут стиля обозначает обычный или курсив. Толщина показывает шрифт как простой или жирный. Вес также можно выразить численно. Размер - это просто размер шрифта, чем больше размер, тем крупнее текст по внешнему виду. Существует несколько способов назначения размера шрифта, подробные описания приведены в следующих разделах. Атрибут семейства предназначен для присвоения тексту названия шрифта
+	    <div class="body-block__section3">
+	      <img class="image"
+	        src="image/depositphotos_7244425-stock-photo-html-css-coding-concept-on.jpg"
+	        alt="picture">
+	      <p class="body-block__paragraf">
+				Детальний посібник із CSS можна знайти на сайті Edureka CSS Tutorial
+				для початківців. Ви отримаєте чудову інформацію про те, як використовувати
+				CSS для покращення веб-дизайну HTML. У CSS-шрифтів є 4 основних
+				атрибута - стиль, вага, розмір та сімейство. Атрибут стилю означає
+				звичайний чи курсив. Товщина показує шрифт як простий чи жирний. Вага
+				також можна висловити чисельно. Розмір – це просто розмір шрифту, ніж
+				більше розмір, тим більше текст на вигляд. Існує декілька
+				способів призначення розміру шрифту, докладні описи наведені в
+				наступні розділи. Атрибут сімейства призначений для присвоєння тексту
+				назви шрифту
+	      </p>
+			<h2 class="body-block__title">Шрифты в CSS</h2>
+			<div class="body-block__section3 info">
+				<p class="info-text">
+					У HTML сімейство шрифтів CSS призначене для встановлення імені шрифту.
+					Ви можете просто вказати одне ім'я шрифту з тегом. Або ви можете
+					призначити кілька значень у вигляді списку сімейств шрифтів, який
+					визначає пріоритет, у якому браузер повинен вибирати шрифт. перелік
+					має пріоритет зліва направо у формі резервної системи. Вибирається
+					перше значення, якщо воно доступне, або керування переходить до
+					наступному, поки не буде досягнуто кінця списку. Сімейство шрифтів з
+					За замовчуванням визначається налаштуваннями браузера.
+				  <span class="info-row">
+					  Сімейства шрифтів CSS бувають двох типів - загальні сімейства та сімейства
+					 шрифтів.</span>
 				</p>
-			</div><br><br>
-			<h2 class="header-2">Шрифты в CSS</h2><br><br><br>
-			<div class="block">
-				<p>
-					В HTML семейство шрифтов CSS предназначено для установки имени шрифта. Вы можете просто указать одно имя шрифта с тегом. Или вы можете назначить несколько значений в виде списка семейств шрифтов, который определяет приоритет, в котором браузер должен выбирать шрифт.
-	Список имеет приоритет слева направо в форме резервной системы. Выбирается первое значение, если оно доступно, или управление переходит к следующему, пока не будет достигнут конец списка. Семейство шрифтов по умолчанию определяется настройками браузера.
-	<span>Семейства шрифтов CSS бывают двух типов - общие семейства и семейства шрифтов.</span>
-				</p>
-			</div><br><br><br>
-			<div class="block-2">
-				<ul>
-					<li>Как и некоторые другие свойства CSS, некоторые настройки шрифта различаются в разных браузерах. Перед использованием некоторых редких настроек шрифта проверьте поддержку браузера.</li>
-					<li>Вы можете установить параметры шрифта отдельно, используя отдельные теги. В качестве альтернативы, если вы предпочитаете компактный код, вы можете использовать сокращенный атрибут шрифта со всеми значениями в одной строке</li>
-					<li> В пользовательских сценариях, где вы хотите, чтобы шрифт изменялся по размеру в зависимости от размера браузера, существует полезная настройка размера шрифта, называемая настройкой адаптивного шрифта. Его можно установить с помощью единицы vw, что означает «ширина области просмотра». Таким образом, размер текста будет соответствовать размеру окна браузера.</li>
-				</ul>
-			</div>
-			<div class="homework">
-			<a href="https://leychenko.github.io/Lesson-4-Figma/">Homework 2</a> 
-			</div><br>
-			
-		</body>
-
-	</html>
+			 </div>
+	    </div>
+		</div>
+</main>
+<footer class="footer">
+	
+</footer>
+  </body>
+</html>

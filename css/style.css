@@ -1,136 +1,134 @@
 /* &display=swap */
-	@import url(https://fonts.googleapis.com/css?family=Murecho:100,200,300,regular,500,600,700,800,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Murecho:regular,500,600,700,800,900&display=swap);
 
-	@import url(https://fonts.googleapis.com/css?family=Mukta:200,300,regular,500,600,700,800&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:regular,italic,600,600italic,700,700italic,900&display=swap);
 
-	@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900&display=swap);
+@font-face {
+  font-family: "Laro-BoldItalic";
+  src: url("../fonts/Laro-BoldItalic.woff"),
+    url("../fonts/Laro-BoldItalic.woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
 
-	@import url(https://fonts.googleapis.com/css?family=Dongle:300,regular,700&display=swap);
+body {
+  font-family: "Laro-BoldItalic";
+  background: rgb(231, 170, 241);
+}
 
-	@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic&display=swap);
+.header-conteiner__title {
+  font-family: "Titillium Web";
+  font-size: 51px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 7px;
+  color: blue;
+  text-shadow: 1px 1px 2px rgba(13, 197, 179, 0.877);
+}
 
-	@import url(https://fonts.googleapis.com/css?family=Comforter:regular&display=swap);
+.header-conteiner__text {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  color: crimson;
+  text-align: justify;
+  letter-spacing: 6px;
+  text-decoration: underline;
+  padding: 20px;
+  margin-bottom: 25px ;
+}
+.list li {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.list-item a {
+  font-family: "Murecho";
+  font-size: 20px;
+  color: rgba(13, 197, 179, 0.877);
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 1.25;
+  letter-spacing: 5px;
+  text-shadow: 1px 2px 1px #000;
+}
+.main-conteiner {
+  text-align: center;
+  font-family: "Murecho";
+  font-size: 21px;
+  white-space: pre-line;
+  color: rgb(220, 117, 20);
+}
 
-		@font-face{
-			font-family:"Laro-BoldItalic" ;
-			src:url("../fonts/Laro-BoldItalic.woff"), url("../fonts/Laro-BoldItalic.woff2");
-			font-weight: 700;
-			font-display: swap;
-			font-style: italic;
-		}
-		@font-face{
-			font-family:"ClarencePro-005" ;
-			src:url("../fonts/ClarencePro-005.woff"), url("../fonts/ClarencePro-005.woff2");
-			font-weight: 400;
-			font-display: swap;
-			font-style: normal;
-		}
-		body{
-			font-family:"Laro-BoldItalic" ;
-		}
-		.title{
-			font-family: "Josefin+Sans";
-			font-size: 21px;
-			font-weight: 700;
-			font-style: italic;
-			text-align: right;
-			color: blue;
-			text-shadow: 1px 1px 2px rgba(13, 197, 179, 0.877);
-		}
+.body-block__text {
+  font-size: 20px;
+  font-family: "Titillium+Web";
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 5px;
+  color: darkviolet;
+  word-spacing: 12px;
+  margin: 20px 0 30px 0;
+}
+.body-block__paragraf2 {
+	font-family: "Murecho";
+  font-weight: 500;
+  font-size: 28px;
+  color: forestgreen;
+  text-decoration: line-through;
+}
+.body-block__paragraf2 span{
+	color: red;
+}
 
-		.header { 
-			font-size: 50px;
-			font-family: "sans-serif";
-			font-style: italic;
-			font-weight: 700;
-			color: crimson;
-			text-align: center;
-			text-decoration: underline;
-			
-		}
-		.link {
-			font-family: "Murecho";
-			font-size: 20px;
-			color:rgba(13, 197, 179, 0.877);
-			font-weight: 700;
-			text-decoration: underline;
-			line-height: 1.25;
-			letter-spacing: 2px;
-			text-shadow: 1px 2px 1px #000;
-		}
-		.conteiner {
-			text-align: center;
-			font-family: "ClarencePro-005";
-			font-size: 21px;
-			white-space: pre-line;
-			color: rgb(220, 117, 20);
-			
+.body-block__section2 .body-block__paragraf {
+  font-size: 52px;
+  color: rgb(234, 0, 255);
+  font-family: "Titillium Web";
+  text-align: center;
+  text-shadow: 10px 15px 5px #000;
+  font-weight: 900;
+  width: 1100px;
+  margin-bottom: 30px;
+}
 
-		}
-		.text{
-			font-family:"Comforter" ;
-			text-transform: capitalize;
-			font-size: 18px;
-			color: red;
-			font-weight: 900;
-			text-decoration: line-through;
+.body-block__section3 .body-block__paragraf{
+	margin-bottom:30px;
+	font-size: 22px;
+	white-space: pre-line;
+	color: red;
+	text-align: right;
+	line-height: 1.5;
+}
+.body-block__title {
+	font-family: "Titillium Web";
+	font-size: 31px;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	letter-spacing: 7px;
+	text-decoration: underline red;
+	color: rgb(28, 184, 111);
+	text-shadow: 1px 1px 2px rgba(13, 197, 179, 0.877);
+}
+.info{
+	font-family: "Murecho";
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 1.6;
+	letter-spacing: normal;
+	width: 1200px;
+	padding: 15px;
+	text-align: center;
+	color: rgba(68, 64, 59, 0.6);
+}
+.info-row {
+  font-size: 40px;
+  color: rgb(101, 165, 42);
+  font-family: "Titillium+Web";
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: overline;
+}
 
-		}
-
-		.text-2 {
-			font-size: 19px;
-			font-family: "Mukta";
-			font-weight: 400;
-			letter-spacing: 5px;
-			color: darkviolet;
-			word-spacing: 12px;
-		}
-		.text-3{
-			font-family:"Dongle" ;
-			font-weight: 300;
-			font-size: 18px;
-			color: forestgreen;
-			text-decoration: line-through;
-		}
-		.header-2{
-			font-size: 52px;
-			color: rgb(234, 0, 255);
-			font-family: "Titillium+Web";
-			text-align: center;
-			text-shadow: 10px 15px 5px #000;
-			font-weight: 900;
-			}
-			
-		.block{
-			font-family: "Verdana, Geneva, Tahoma, sans-serif";
-			font-size: 25px;
-			color: rgb(0, 119, 255);
-			text-decoration: underline;
-			text-decoration-color: lightcoral;
-			letter-spacing: 20px;
-		}
-		.block span{
-			color: rgb(101, 165, 42);
-			font-family: "Titillium+Web";
-			font-weight: 700;
-			font-style: italic;
-		}
-		.homework{
-			font-family: 'Georgia, Times New Roman, Times, serif';
-			font-size: 100px;
-			text-align: center;
-			color: red;
-			text-decoration: underline;
-			text-shadow: 8px 8px 8px;
-		}
-		.block-2{
-			font-family:"Dongle" ;
-			font-size: 22px;
-			text-align: right;
-			text-decoration: line-through;
-			
-		}	
-		.w3{
-			text-align: right;
-			
-		}

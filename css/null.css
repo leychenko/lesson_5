@@ -4,7 +4,8 @@
 *::after {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: none;
+	box-sizing: border-box;
 }
 li {
 	list-style: none;
@@ -12,7 +13,7 @@ li {
 a {
 	color: inherit;
 }
-a,
+a:link,
 a:visited {
 	text-decoration: none;
 }
@@ -31,7 +32,17 @@ h6 {
 img {
 	vertical-align: top;
 }
-
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
 body,
 html {
 	height: 100%;
